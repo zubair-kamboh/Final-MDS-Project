@@ -1,0 +1,30 @@
+{
+  "name": "mds-backend-server",
+  "version": "1.0.0",
+  "description": "A backend server for malware detection system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zubair-kamboh/Malware-Detection-System.git"
+  },
+  "author": "Zubair Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zubair-kamboh/Malware-Detection-System/issues"
+  },
+  "homepage": "https://github.com/zubair-kamboh/Malware-Detection-System#readme",
+  "dependencies": {
+    "concurrently": "^9.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^8.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
